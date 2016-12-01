@@ -1,0 +1,319 @@
+/* CSS author: Ryan Spellman http://www.vividapparitions.com */
+
+body,html {
+height:100%;
+margin:0;
+}
+
+body {
+background:#fff url('../images/watermark.png') no-repeat fixed right bottom;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+border:0;
+}
+
+#wrapper {
+width:900px;
+height:100%;
+margin:0 auto;
+}
+
+#footer {
+position:fixed;
+bottom:0;
+font-size:small;
+text-align:center;
+width:900px;
+font-weight:700;
+}
+
+#footer a:hover {
+color:#610b0b;
+text-decoration:underline;
+}
+
+#face {
+width:900px;
+height:182px;
+}
+
+#flag {
+width:354px;
+height:182px;
+background:url('../images/flag.gif');
+float:left;
+cursor:pointer;
+margin:0;
+}
+
+#header {
+width:546px;
+height:182px;
+float:left;
+}
+
+#header1 {
+width:546px;
+height:136px;
+background:url('../images/header/roots.jpg');
+}
+
+#header2 {
+width:546px;
+height:136px;
+background:url('../images/header/sunwheel.jpg');
+}
+
+#header3 {
+width:546px;
+height:136px;
+background:url('../images/header/frigga.jpg');
+}
+
+#header4 {
+width:546px;
+height:136px;
+background:url('../images/header/raven.jpg');
+}
+
+#header5 {
+width:546px;
+height:136px;
+background:url('../images/header/bifrost.jpg');
+}
+
+#menu {
+width:546px;
+height:46px;
+background:url('../images/menu-bg.png');
+}
+
+span.on {
+text-decoration:underline;
+color:#610b0b;
+}
+
+.menulink {
+float:left;
+font-weight:700;
+padding:15px 13px 0 0;
+}
+
+.menulink-leading {
+float:left;
+font-weight:700;
+padding:15px 13px 0 10px;
+}
+
+.menulink-ending {
+float:left;
+font-weight:700;
+padding:15px 0 0 10px;
+}
+
+.round {
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+border-radius:20px;
+border:3px solid #ccc;
+background:url('../images/trans.png');
+width:840px;
+margin:0 auto;
+padding:10px 10px 10px 20px;
+}
+
+.round p {
+color:#000;
+}
+
+.spacer {
+  height:50px;
+}
+
+.clear {
+clear:both;
+}
+a:link {
+color:#610b0b;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+}
+
+a:visited {
+color:#006;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+}
+
+a:hover {
+color:#000;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+}
+
+h2 a:link {
+color:#610b0b;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+}
+
+h2 a:visited {
+color:#006;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+}
+
+h2 a:hover {
+color:#000;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+}
+
+p.description {
+padding-left: 15px;
+margin:0;
+}
+
+
+#contact_info {
+width:400px;
+margin:20px auto 0;
+}
+
+#contact-area {
+width:400px;
+margin:20px auto 0;
+}
+
+#contact-area input,#contact-area textarea {
+width:400px;
+font-family:Helvetica, sans-serif;
+font-size:1.4em;
+border:2px solid #ccc;
+margin:0 0 10px;
+padding:5px;
+}
+
+#contact-area textarea {
+height:90px;
+}
+
+#contact-area textarea:focus,#contact-area input:focus {
+border:2px solid #000;
+}
+
+#contact-area input.submit-button {
+width:100px;
+padding-bottom:2px;
+margin:10px 0 25px 0;
+background-color:#fff;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+}
+
+#contact-area input:hover.submit-button {
+width:100px;
+margin:10px 0 25px 0;
+background-color:#707070;
+color:#fff;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+}
+
+label {
+font-family:Arial, Helvetica, sans-aserif;
+color:#000;
+float:left;
+text-align:left;
+margin-right:15px;
+width:100%;
+padding-bottom:3px;
+padding-top:5px;
+font-size:1.4em;
+}
+
+#footer a:link,#footer a:visited {
+color:#000;
+text-decoration:none;
+}
+
+div.menulink a:link,div.menulink a:visited,div.menulink-leading a:link,div.menulink-leading a:visited,div.menulink-ending a:link,div.menulink-ending a:visited {
+color:#000;
+text-decoration:none;
+font-weight:700;
+}
+
+div.menulink a:hover,div.menulink-leading a:hover,div.menulink-ending a:hover {
+color:#610b0b;
+text-decoration:underline;
+font-weight:700;
+}
+
+h1,h2 {
+color:#610b0b;
+font-weight:700;
+font-family:Tahoma, Arial, sans-serif;
+margin:10px 0;
+padding:0 0 0 15px;
+}
+
+.questions {
+      margin: 5px;}   
+
+a.questions:link {
+      display: block;
+      color: #610b0b;
+      font-weight: bold;
+      text-decoration:none;
+      font-size: 1.5em;	
+      }
+
+a.questions:visited {
+      display: block;
+      color: #610b0b;
+      font-weight: bold;
+      text-decoration:none;
+      font-size: 1.5em;	
+      }
+
+a.questions:hover {
+      display: block;
+      color: #000;
+      font-weight: bold;
+      text-decoration:none;
+      font-size: 1.5em;	
+      }
+
+a.questions:active {
+      display: block;
+      color: #000;
+      font-weight: bold;
+      text-decoration:none;
+      font-size: 1.5em;	
+      }
+
+dt {
+      padding: 5px;
+      }
+
+dd { padding:0px;
+     border: 0; 
+     font-size: 1em;
+}
+
+dd p { 
+  padding-right: 50px;
+}
+
+span.emphasis {
+  font-weight:bold;
+  font-size:1.3em;
+  font-style:italic;
+}
+
+.calendar {
+  width:820px;
+  margin:0 auto 10px 0;
+}
