@@ -2,39 +2,54 @@
 <html>
   <head>
     <title>Central Ohio Asatru Community</title>
-    <link rel="stylesheet" type="text/css" href="coa.css" media="Screen" />
+    <meta name="description" content="Central Ohio Asatru Home Page" />
+    <meta name="keywords" content="Asatru, Ohio, Heathens, Columbus, Central Ohio, Heathen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" type="text/css" href="css/coa.css" media="Screen" />
     <link rel="stylesheet" type="text/css" href="css/coa-hh.css" media="handheld" />
-    <!--[if IE]><link rel="stylesheet" href="fix-ie.css" type="text/css" media="screen, projection" /><![endif]-->
+    <!--[if IE]><link rel="stylesheet" href="css/fix-ie.css" type="text/css" media="screen, projection" /><![endif]-->
   </head>
   <body>
     <div id="wrapper">
       <div id="face">
-        <div id="flag"></div>
+        <div id="flag" onclick="location.href='index.html';"></div>
         <div id="header">
           <div id="header1"></div>
           <div id="menu">
             <div class="menulink-leading"><a href="about.html" title="About Us">ABOUT US</a></div><div class="menulink">&#124;</div>
             <div class="menulink"><a href="asatru.html" title="Abotu Asatru">ABOUT ASATRU</a></div><div class="menulink">&#124;</div>
-            <div class="menulink"><a href="contact.html" title="Contact Us">CONTACT US</a></div><div class="menulink">&#124;</div>
+            <div class="menulink"><a href="contact.php" title="Contact Us">CONTACT US</a></div><div class="menulink">&#124;</div>
             <div class="menulink-ending"><a href="links.html" title="External Resources">RESOURCES</a></div>
           </div>
         </div>
+        <div class="clear"></div>
         <div id="content">
-<div class="spacer"></div>
-<h1>Welcome to Central Ohio Asatru</h1>
           <div class="round">
-<p> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non justo nulla, eget molestie velit. Duis in nisl sed eros pretium hendrerit quis eu nunc. Etiam fringilla aliquam magna eget vehicula. Nunc nec sapien eget quam porttitor ornare. Maecenas fringilla dolor sit amet ante sagittis quis aliquet dolor tristique. Sed commodo suscipit felis ac ornare. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sollicitudin laoreet ultrices. Morbi eu eros lorem, et varius enim. Vivamus non dui non justo malesuada aliquet eu sit amet arcu.
-</p> 
-<p> 
-Duis dictum porta neque, a mollis nulla aliquam in. Aenean a arcu arcu, nec laoreet metus. Etiam ornare aliquam magna, eget convallis ipsum vehicula sed. Mauris mollis facilisis lectus eget pharetra. Praesent malesuada bibendum urna, id sollicitudin magna rhoncus eget. Morbi nec velit eu purus condimentum facilisis ac eu metus. Phasellus vel enim sed risus suscipit sagittis. Mauris felis lectus, dignissim a adipiscing ac, euismod in enim. Donec vitae metus lorem, vel elementum eros. Maecenas mattis turpis a ante malesuada interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vel nulla in ligula dictum venenatis ac ac velit. Duis sit amet felis augue, ac molestie dolor. Duis id suscipit sapien.
-</p>
+            <form action="https://formspree.io/contact.nineworlds@gmail.com" method="POST">
+              <input type="text" name="name" required>
+              <input type="email" name="_replyto" required>
+              <textarea name="message"></textarea>
+              <input type="text" name="_gotcha" style="display:none;" />
+              <input type="submit" value="Send">
+            </form>
 
           </div>
-
         </div>
-        <div id="footer"></div>
+
+      <div class="spacer"><br /><br /></div>
       </div>
-    </div>
+      <div id="footer">
+                       <a href="index.html" title="Home">HOME</a> &nbsp; &#124; &nbsp;
+            <a href="about.html" title="About Us">ABOUT US</a> &nbsp; &#124; &nbsp;
+            <a href="asatru.html" title="Abotu Asatru">ABOUT ASATRU</a> &nbsp; &#124; &nbsp;
+            <a href="contact.php" title="Contact Us">CONTACT US</a> &nbsp; &#124; &nbsp;
+            <a href="links.html" title="External Resources">RESOURCES</a>
+      </div>
+      </div>
   </body>
 </html>
