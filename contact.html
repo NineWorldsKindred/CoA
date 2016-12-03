@@ -30,23 +30,24 @@
         <div class="clear"></div>
         <div id="content">
           <div class="round">
+            <div id="contact-area">
             <form action="https://formspree.io/contact.nineworlds@gmail.com" method="POST">
               <div>
                 <label for="name">Name</label>
-                <input type="text" name="name" required>
+                <input type="text" name="name" id="Name" size="35" required>
               </div>
               <div>
                 <label for="email">Email</label>
-                <input type="email" name="_replyto" required>
+                <input type="email" name="_replyto" id="Email" size="45" required>
               </div>
               <div>
                 <label for="message">Tell us a bit about yourself:</label>
-                <textarea name="message"></textarea>
+                <textarea name="message" rows="7" cols="50" id="Message"></textarea>
               </div>
               <input type="text" name="_gotcha" style="display:none;" />
               <input type="submit" value="Send">
             </form>
-
+            </div>
           </div>
         </div>
 
