@@ -31,9 +31,18 @@
         <div id="content">
           <div class="round">
             <form action="https://formspree.io/contact.nineworlds@gmail.com" method="POST">
-              <input type="text" name="name" required>
-              <input type="email" name="_replyto" required>
-              <textarea name="message"></textarea>
+              <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="_replyto" required>
+              </div>
+              <div>
+                <label for="message">Tell us a bit about yourself:</label>
+                <textarea name="message"></textarea>
+              </div>
               <input type="text" name="_gotcha" style="display:none;" />
               <input type="submit" value="Send">
             </form>
