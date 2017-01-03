@@ -19,7 +19,7 @@
       <div id="face">
         <div id="flag" onclick="location.href='index.html';"></div>
         <div id="header">
-          <div id="header1"></div>
+          <div id="header4"></div>
           <div id="menu">
             <div class="menulink-leading"><a href="about.html" title="About Us">ABOUT US</a></div><div class="menulink">&#124;</div>
             <div class="menulink"><a href="asatru.html" title="Abotu Asatru">ABOUT ASATRU</a></div><div class="menulink">&#124;</div>
@@ -29,14 +29,30 @@
         </div>
         <div class="clear"></div>
         <div id="content">
+
           <div class="round">
+
+          <div class="clear"></div>
+          <h1>Contact Us</h1>
+          <div class="round">
+            <div id="contact-area">
             <form action="https://formspree.io/contact.nineworlds@gmail.com" method="POST">
-              <input type="text" name="name" required>
-              <input type="email" name="_replyto" required>
-              <textarea name="message"></textarea>
+              <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="Name" size="35" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="_replyto" id="Email" size="45" required>
+              </div>
+              <div>
+                <label for="message">Tell us a bit about yourself:</label>
+                <textarea name="message" rows="10" cols="50" id="Message"></textarea>
+              </div>
               <input type="text" name="_gotcha" style="display:none;" />
-              <input type="submit" value="Send">
+              <input type="submit" class="submit-button" value="Send">
             </form>
+            </div>
 
           </div>
         </div>
@@ -47,7 +63,7 @@
                        <a href="index.html" title="Home">HOME</a> &nbsp; &#124; &nbsp;
             <a href="about.html" title="About Us">ABOUT US</a> &nbsp; &#124; &nbsp;
             <a href="asatru.html" title="Abotu Asatru">ABOUT ASATRU</a> &nbsp; &#124; &nbsp;
-            <a href="contact.php" title="Contact Us">CONTACT US</a> &nbsp; &#124; &nbsp;
+            <a href="contact.html" title="Contact Us">CONTACT US</a> &nbsp; &#124; &nbsp;
             <a href="links.html" title="External Resources">RESOURCES</a>
       </div>
       </div>
